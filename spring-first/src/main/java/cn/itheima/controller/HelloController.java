@@ -11,7 +11,7 @@ public class HelloController {
 	public ModelAndView hello(){
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("hello", "srpringmvc!!!");
-		mav.setViewName("/WEB-INF/jsp/hello.jsp");
+		mav.setViewName("/WEB-INF/jsp/hello.jsp"+"qwe");
 		return mav;
 	}
 	
